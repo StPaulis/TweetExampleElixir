@@ -1,0 +1,11 @@
+{application,tweet_example,
+             [{description,"tweet_example"},
+              {modules,['Elixir.TweetExample',
+                        'Elixir.TweetExample.Application',
+                        'Elixir.TweetExample.FileReader',
+                        'Elixir.TweetExample.Scheduler',
+                        'Elixir.TweetExample.Tweet']},
+              {registered,[]},
+              {vsn,"0.1.0"},
+              {applications,[kernel,stdlib,elixir,logger,quantum,extwitter]},
+              {mod,{'Elixir.TweetExample.Application',[]}}]}.
