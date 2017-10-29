@@ -26,7 +26,8 @@ defmodule TweetExample.Mixfile do
       {:credo, "~> 0.4.11"},
       {:quantum, "~> 1.8"},
       {:extwitter, "~> 0.9.0"},
-      {:oauther, "~> 1.1"}
+      {:oauther, "~> 1.1"},
+      {:mock, "~> 0.3.1"}
       #{:oauth, github: "tim/erlang-oauth"}
       # {:dep_from_git, git: "https://github.com/elixir-lang/my_dep.git", tag: "0.1.0"},
     ]

@@ -8,4 +8,9 @@ defmodule TweetExample.Tweet do
           )
         ExTwitter.update(str)
     end
+
+    def send_random(file) do
+        TweetExample.FileReader.get_str_to_tweet(file)
+        |> send
+    end
 end
